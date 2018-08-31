@@ -8,6 +8,6 @@ def position_taken?(board, index)
   elsif board[index] == ""
     return false
   else board[index] == nil
-    reurn false
+    return false
 end
 end
